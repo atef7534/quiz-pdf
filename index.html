@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF | Home Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <div class="div-logo">
+      <h2 class="logo">Fox</h2>
+    </div>
+    <div class="div-links">
+      <ul class="links">
+        <li class="delete-questions"><a href="delete.html">Delete Q</a></li>
+        <li class="add-questions"><a href="add.html">Add Q</a></li>
+        <li class="clear-clicked"><button class="clear-cq">Clear CQ</button></li>
+      </ul>
+    </div>
+  </div>
+  <div class="landing">
+    <div class="questions"></div>
+    <div class="no-question">No Question Here!<div class="remove-error">X</div></div>
+  </div>
+  <div class="overlay">
+    <div class="content">
+      <h4 class="check-clicked">Do you really want to clear All clicked items?</h4>
+      <div class="yes-no">
+        <button class="accept" data-clicked="no">yes</button>
+        <button class="refused" data-clicked="no">close</button>
+      </div>
+      <div class="x" data-clicked = "no">x</div>
+    </div>
+  </div>
+  <script src="main.js" type="module"></script>
+</body>
+</html>
